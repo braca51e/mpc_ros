@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>mpc_navigation</name>
+  <version>1.0.0</version>
+  <description>
+    The mpc_navigation provides roslaunch scripts for doing mpc navigation.
+  </description>
+  <license>Apache 2.0</license>
+    <author email="luis@bracavisionai.com">Luis Bracamontes</author>
+  <author>Luis Bracamontes</author>
+  <maintainer email="luis@bracavisionai.com">Luis Bracamontes</maintainer>
+  <url type="website">todo</url>
+  <url type="emanual">todo</url>
+  <url type="repository">todo</url>
+  <url type="bugtracker">todo</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf</depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>nav_msgs</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+
+</package>
