@@ -1,2 +1,2 @@
 # mpc_ros
-ROS package for MPC
+ROS package for Nonlinear MPC
